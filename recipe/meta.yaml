@@ -26,8 +26,14 @@ requirements:
     - mahotas
 
 test:
+  source_files:
+    - tests
+
   imports:
     - imgroi
+
+  commands:
+    - python -m unittest discover -s .
 
 about:
   home: https://github.com/jakirkham/imgroi
