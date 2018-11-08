@@ -1,6 +1,6 @@
 {% set name = "imgroi" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "09801d1c478cf73ba200ccad0b008baa224b5abf97d28f3df6269501f6a07687" %}
+{% set version = "0.0.3" %}
+{% set sha256 = "024dbbdfe6828196f6d1ac74ee04956f37cff611a1f973c461cded056145726c" %}
 
 package:
   name: {{ name|lower }}
